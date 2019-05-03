@@ -278,7 +278,7 @@ services:
       - command
 
   dataagent:
-    image: advwacloud/edgex-dataagent-go:1.0.4
+    image: advwacloud/edgex-dataagent-go:1.0.6
     ports:
       - "4001:4001"
     container_name: edgex-dataagent
