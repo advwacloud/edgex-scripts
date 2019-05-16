@@ -261,7 +261,7 @@ services:
       - consul-data:/consul/data
 
   ui:
-    image: advwacloud/edgex-ui-go:1.0.3
+    image: advwacloud/edgex-ui-go:1.0.4
     ports:
       - "4000:4000"
     container_name: edgex-ui-go
@@ -278,7 +278,7 @@ services:
       - command
 
   dataagent:
-    image: advwacloud/edgex-dataagent-go:1.0.6
+    image: advwacloud/edgex-dataagent-go:1.0.8
     ports:
       - "4001:4001"
     container_name: edgex-dataagent
